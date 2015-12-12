@@ -1,0 +1,88 @@
+https://www.glassdoor.com/job-listing/full-stack-web-developer-vonnda-JV_IC1147401_KO0,24_KE25,31.htm?jl=1668914895
+This isn't all the code I wrote for the codeacadamy tutorial, but it is only some of the unique parts, because a lot of the code was similar
+
+
+"string".reverse
+"string".length
+"string".upcase, .downcase
+puts
+print
+everything in ruby is an object
+# comment
+
+=begin
+a
+comment
+=end
+
+sum = 13 + 379
+product = 923 * 15
+quotient = 13209 / 17
+
+name = "chris"
+name.downcase
+name.reverse
+name.upcase
+
+print "What's your first name?"
+first_name = gets.chomp
+
+printf "What is your last name?"
+last_name = gets.chomp
+
+printf "What is your city?"
+city = gets.chomp
+
+printf "What is your state"
+state = gets.chomp
+
+puts "Your name is #{first_name} #{last_name} and you are from #{city}, #{state}"
+
+
+print "What's your first name?"
+first_name = gets.chomp
+first_name.capitalize!
+
+printf "What is your last name?"
+last_name = gets.chomp
+last_name.capitalize!
+
+printf "What is your city?"
+city = gets.chomp
+city.capitalize!
+
+printf "What is your state"
+state = gets.chomp
+state.upcase!
+
+puts "Your name is #{first_name} #{last_name} and you are from #{city}, #{state}"
+
+if 1 > 2
+    print "hi"
+elsif i < 2
+    print "yo"
+end
+
+
+hungry = false
+
+unless hungry
+  puts "I'm writing Ruby programs!"
+else
+  puts "Time to eat!"
+end
+
+
+# boolean_1 = !true
+boolean_1 = false
+
+# boolean_2 = !true && !true
+boolean_2 = false
+
+# boolean_3 = !(700 / 10 == 70)
+boolean_3 = false
+
+
+https://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1?curriculum_id=5059f8619189a5000201fbcb
+
+
